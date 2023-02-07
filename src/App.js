@@ -4,6 +4,7 @@ import ContactPage from "./pages/ContactPage/ContactPage";
 import HelpPage from "./pages/HelpPage/HelpPage"
 import {Route, Routes } from "react-router-dom"
 import Footer from "./components/Footer/Footer";
+import './App.css'
 
 function App () {
     return (

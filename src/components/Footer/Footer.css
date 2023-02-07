@@ -1,18 +1,35 @@
-.Footer {
-    text-align: center;
+.innerFooter {
     background-color: #121212;
-    color: white;
-    padding: 90px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.innerFooter p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
 
 }
-.Footer p {
-    top:24px;
-    font-weight: 600;
-    font-size: 18px;
+.social-links {
+    display: flex;
+
 }
-.socials {
+.social-links ul {
+    display: flex;
+    width: 580px;
+    margin: auto;
+}
+.social-items {
+    list-style: none;
+}
+.social-items a {
+    padding: 16px 50px 24px;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.social-items a:hover {
+    color: antiquewhite;
 }

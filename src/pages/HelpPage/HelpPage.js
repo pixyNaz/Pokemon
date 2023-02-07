@@ -1,8 +1,9 @@
 import React from "react";
-
-
 export default function HelpPage () {
     return (
-        <h1>Help Page</h1>
+        <div>
+            <h2>HelpPage</h2>
+            
+        </div>
     )
 }
